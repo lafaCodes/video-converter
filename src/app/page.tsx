@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Ffmpeg from "./ffmeg";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
 
       <div className={styles.center}>
         {/* Video Editor Code */}
+        <Ffmpeg />
       
       </div>
 
